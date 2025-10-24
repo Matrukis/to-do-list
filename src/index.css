@@ -6,8 +6,8 @@
 
 header {
   text-align: center;
-  min-height: 50px;
-  max-height: 50px;
+  min-height: 8vh;
+  padding: 1rem;
   background-color: #121619;
   color: white;
 }
@@ -24,11 +24,50 @@ body {
 footer {
   background-color: #121619;
   width: 100%;
-  min-height: 30px;
-  max-height: 30px;
+  min-height: 5vh;
+  padding: 0.5rem;
   position: absolute;
   bottom: 0;
   text-align: center;
   color: white;
 }
 
+.container {
+  background-color: #242325;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-direction: column;
+  max-width: 90%;
+  width: 100%;
+  padding: 1rem;
+  gap: 0.5rem;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  width: 100%;
+}
+
+li {
+  background-color: white;
+  color: #242325;
+  padding: 8px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  padding: 8px;
+  background-color: white;
+  border-radius: 4px;
+  border: none;
+}
