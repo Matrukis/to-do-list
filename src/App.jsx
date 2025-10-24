@@ -11,7 +11,7 @@ function App() {
     setTasks([...tasks, newTask]);
     setNewTask("");
   }
-  
+
   function removeTask(indexToRemove) {
     setTasks(tasks.filter((_, index) => index !== indexToRemove));
   }
@@ -33,7 +33,7 @@ function App() {
           {tasks.map((task, index) => (
             <li key={index}>
               {task}
-              <button onClick={() => removeTask(index)}>✔️</button>
+              <button id="feito" onClick={() => removeTask(index)}>X</button>
             </li>
           ))}
         </ul>
