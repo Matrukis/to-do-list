@@ -1,0 +1,34 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  min-height: 50px;
+  max-height: 50px;
+  background-color: #121619;
+  color: white;
+}
+
+body, html {
+  height: 100%;
+}
+
+body {
+  background-color: #E8E9BF;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+  background-color: #121619;
+  width: 100%;
+  min-height: 30px;
+  max-height: 30px;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  color: white;
+}
+
